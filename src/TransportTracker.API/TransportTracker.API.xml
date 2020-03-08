@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TransportTracker.API</name>
+    </assembly>
+    <members>
+        <member name="M:TransportTracker.API.Controllers.LocationsController.GetLocationById(System.Guid)">
+            <summary>
+            Get individual location by id
+            </summary>
+            <param name="locationId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TransportTracker.API.Controllers.LocationsController.GetCurrentLocationByVehicleId(System.Int32)">
+            <summary>
+            Get current location by vehicle id
+            </summary>
+            <param name="vehicleId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TransportTracker.API.Controllers.LocationsController.GetLocationByVehicleIdAndPeriodTime(TransportTracker.API.Models.Dtos.LocationFilterRequest)">
+            <summary>
+            get location by vehicle id and period time
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TransportTracker.API.Controllers.LocationsController.AddLocation(TransportTracker.API.Models.Dtos.LocationRequest)">
+            <summary>
+            Register new location
+            </summary>
+            <param name="locationCreateDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TransportTracker.API.Controllers.UsersController.Authenticate(TransportTracker.API.Models.Dtos.AuthenticationRequest)">
+            <summary>
+            Authenticate to get token
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TransportTracker.API.Controllers.UsersController.Register(TransportTracker.API.Models.Dtos.AuthenticationRequest)">
+            <summary>
+            Create new user
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TransportTracker.API.Controllers.VehiclesController.GetVehicles">
+            <summary>
+            Get list of vehicles.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TransportTracker.API.Controllers.VehiclesController.GetVehicleById(System.Int32)">
+            <summary>
+            Get individual vehicle
+            </summary>
+            <param name="vehicleId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TransportTracker.API.Controllers.VehiclesController.CreateVehicle(TransportTracker.API.Models.Dtos.VehicleRequest)">
+            <summary>
+            Register new vehicle
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
