@@ -26,5 +26,3 @@ Simple Vehicle Tracking API with ASP.NET Core Web API 3.0, Entity Framework Core
 * Enter Bearer and than space and paste Token
 
 ![](res/TransportTrackerApi.PNG)
-![](res/Authenticate-1.PNG)
-![](res/Authenticate-2.PNG)
