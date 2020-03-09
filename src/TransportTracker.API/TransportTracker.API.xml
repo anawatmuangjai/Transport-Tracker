@@ -20,7 +20,7 @@
         </member>
         <member name="M:TransportTracker.API.Controllers.LocationsController.GetLocationByVehicleIdAndPeriodTime(TransportTracker.API.Models.Dtos.LocationFilterRequest)">
             <summary>
-            get location by vehicle id and period time
+            Get location by vehicle id and period time
             </summary>
             <param name="request"></param>
             <returns></returns>

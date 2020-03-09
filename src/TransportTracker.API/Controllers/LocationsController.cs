@@ -67,7 +67,7 @@ namespace TransportTracker.API.Controllers
         }
 
         /// <summary>
-        /// get location by vehicle id and period time
+        /// Get location by vehicle id and period time
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
@@ -112,7 +112,8 @@ namespace TransportTracker.API.Controllers
 
             if (response == null)
             {
-                return BadRequest(ModelState);
+                ModelState.AddModelError("", "Vehicle id not exists");
+                return StatusCode(404, ModelState);
             }
 
             return Ok(response);
